@@ -815,13 +815,13 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate(-50%, -50% )  scale(0.8);
 }
 .modal {
-  /* не розумію чому на github модалка зпкривається різко, а через live server так як потрібно(  ніякі зміни не вношу)*/
+
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50% ) scale(1);
 
-transition-property:transform box-shadow; 
+transition-property:transform; 
 transition-duration: 250ms ;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
